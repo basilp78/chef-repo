@@ -1,0 +1,10 @@
+[Unit]
+Description=Remove a registered chef noded at termination
+before=shutdown.target halt.target final.target
+
+[Service]
+type=oneshot
+ExecStop=/usr/sbin/removechefnode
+ExecStart=/bin/true
+RemainAfterExit=yes
+

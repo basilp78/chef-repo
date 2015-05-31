@@ -1,0 +1,5 @@
+#!/bin/bash
+
+/usr/bin/knife node delete -y -c /root/.chef/knife.rb <%= node['fqdn'] %>
+/usr/bin/knife client delete -y -c /root/.chef/knife.rb <%= node['fqdn'] %>
+
