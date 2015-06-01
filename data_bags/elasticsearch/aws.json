@@ -1,10 +1,1 @@
-{
-      "id" : "aws",
-      "_default" : {
-        "discovery" : { "type": "ec2", "ec2" : { "groups": "elasticsearch" } },
 
-        "cloud"   : {
-          "aws"     : { "access_key": "AKIAJ37FPMG2HR7FXT7A", "secret_key": "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" }
-        }
-      }
-    }
