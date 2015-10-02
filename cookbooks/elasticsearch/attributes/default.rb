@@ -1,6 +1,7 @@
 # Load settings from data bag 'elasticsearch/settings'
 #
-settings = Chef::DataBagItem.load('elasticsearch', 'settings')[node.chef_environment] rescue {}
+#Test
+#settings = Chef::DataBagItem.load('elasticsearch', 'settings')[node.chef_environment] rescue {}
 Chef::Log.debug "Loaded settings: #{settings.inspect}"
 
 # Initialize the node attributes with node attributes merged with data bag attributes
