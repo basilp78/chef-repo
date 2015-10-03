@@ -1,0 +1,20 @@
+{
+    "name": "development",
+    "description": "The master development branch",
+    "cookbook_versions": {},
+    "json_class": "Cheff:Environment",
+    "chef_type": "environment",
+    "default_attributes": {},
+    "override_attributes": {
+        "author": {
+            "name": "Basil"
+        },
+        "java": {
+            "install_flavor": "oracle",
+            "jdk_version": "7",
+            "oracle": {
+                "accept_oracle_download_terms": "true"
+            }
+        }
+    }
+}
