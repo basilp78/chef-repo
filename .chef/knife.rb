@@ -9,3 +9,5 @@ validation_client_name   "pioneer-validator"
 validation_key           "#{current_dir}/pioneer-validator.pem"
 chef_server_url          "https://api.opscode.com/organizations/pioneer"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:vault_mode] = 'client'
+knife[:vault_admins] = [ 'basilp78' ]
