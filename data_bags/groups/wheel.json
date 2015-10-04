@@ -1,0 +1,15 @@
+{
+  "id": "wheel",
+  "gid": {
+    "encrypted_data": "WAGWR1Rr5Skq3SdZVsV2ST1NW6KIsSAyPpY6He3MnbA=\n",
+    "iv": "CcZsmBdBKfX9dsRzZWeTQQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "members": {
+    "encrypted_data": "3mrkp3HV352PLwoXYoko4u/33VyLBup3SEEtaAoUm/k=\n",
+    "iv": "ZdC0CQQTPQ/0TMGu5n5hSA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

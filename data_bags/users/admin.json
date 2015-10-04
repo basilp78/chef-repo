@@ -1,9 +1,39 @@
 {
-	"id":"admin",
-	"comment":"admin user",
-	"uid":"2005",
-	"gid":0,
-	"home":"/home/admin",
-	"shell":"/bin/bash",
-	"password":"123456"
+  "id": "admin",
+  "comment": {
+    "encrypted_data": "33PcafcIMsNedilqOg49HDQW9x2TW0iDpvCQYFbb5mc=\n",
+    "iv": "CZ7s3JYYLtFd/gat+aGrQg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "uid": {
+    "encrypted_data": "XDKSWHrq9O9uea/btAY+8QoDrwAU1TaHqR0Hqemz2mE=\n",
+    "iv": "jR82w5+a3F0C0FW31zhb4A==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "gid": {
+    "encrypted_data": "zQrrlLrnpkIdNmp90XzuW7SdiFigdIKmtzD6BReAcJU=\n",
+    "iv": "XMxFkQWbkFSEqfr2Jp8jgg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "home": {
+    "encrypted_data": "0n568MGT0OCwRa0XDFvgfORIbk7RHhnoN0JcsDqx0C4=\n",
+    "iv": "S7zVayFm86rf/pCJbtne9A==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "shell": {
+    "encrypted_data": "MWbI7iFb8WpgWrvejpno9fMJAHTAQvaw+adG22tdRqE=\n",
+    "iv": "XLhN8hUJazwWzVeoCYcQ6w==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "password": {
+    "encrypted_data": "GoJZda6zbo2u/Nj/W0WIevyKRzrjRZUNjpEwzLaBi6s=\n",
+    "iv": "7sVSnjOdHTCgBo3tdNc6Ow==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
 }
