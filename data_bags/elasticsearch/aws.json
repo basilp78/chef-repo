@@ -1,5 +1,9 @@
 {
-        "id":"aws",
-        "comment":"aws creds"
+  "id": "aws",
+  "api_key": {
+    "encrypted_data": "yzxde/pmWIQm03WiSPshc+PcJjQLHeF/XDgcQIIUrJQV7lfgAF1j+FId1X9S\nnmoX\n",
+    "iv": "IbNw+tAB+DMT1oNAOHDsHg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
 }
-
