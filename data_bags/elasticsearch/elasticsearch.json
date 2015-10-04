@@ -1,9 +1,0 @@
-{
-  "id": "elasticsearch",
-  "api_key": {
-    "encrypted_data": "oiUoHchb88x+5TYdhdmuOIkohQM+dPXPwg6oMtxv+XG+otMJMHqkIcNF6+uv\nYsIs\n",
-    "iv": "kM76Ir+RWkKoa5xtuNK6EA==\n",
-    "version": 1,
-    "cipher": "aes-256-cbc"
-  }
-}
